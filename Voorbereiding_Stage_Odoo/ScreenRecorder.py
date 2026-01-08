@@ -14,7 +14,7 @@ fps = 60.0
 codec = cv2.VideoWriter_fourcc(*"XVID")
 
 #output bestand
-output_file = "recorded_video.avi"
+output_file = "recorded_video.mp4"
 
 #video writer object
 out = cv2.VideoWriter(output_file, codec, fps, resolution)
