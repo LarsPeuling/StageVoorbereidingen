@@ -30,7 +30,8 @@ def addNew2(mat):
         
         tries += 1
     
-    r,c findEmpty(mat)
+    r,c = findEmpty(mat)
+    
     if r is not None and c is not None:
         mat[r][c] = 2
         
